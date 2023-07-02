@@ -1,0 +1,19 @@
+HTTrack3.48-21+htsswf+htsjava launched on Sat, 01 Jul 2023 12:49:44 at https://gudetama.io/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://gudetama.io/ -O1 "C:\My Web Sites\gudetama" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:49:55	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://static.elfsight.com/platform/platform.js (from https://gudetama.io/)
+12:49:55	Warning: 	Retry after error -4 (No data (connection closed)) at link https://gudetama.io/images/tamasleeping.gif (from https://gudetama.io/)
+12:49:55	Warning: 	Retry after error -4 (No data (connection closed)) at link https://gudetama.io/images/telegram.png (from https://gudetama.io/)
+12:49:55	Warning: 	Retry after error -4 (Incorrect length (163811 Bytes, 381087 expected)) at link https://gudetama.io/images/bg.png (from https://gudetama.io/css/gudetamacoin.webflow.css)
+12:49:55	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://static.elfsight.com/platform/platform.js (from https://gudetama.io/)
+12:49:55	Warning: 	Retry after error -4 (Incorrect length (278470 Bytes, 381087 expected)) at link https://gudetama.io/images/bg.png (from https://gudetama.io/css/gudetamacoin.webflow.css)
+12:49:55	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://static.elfsight.com/platform/platform.js (from https://gudetama.io/)
+12:49:56	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://gudetama.io/images/bg.png (from https://gudetama.io/css/gudetamacoin.webflow.css)
+
+HTTrack Website Copier/3.48-21 mirror complete in 12 seconds : 44 links scanned, 35 files written (3235785 bytes overall) [3295084 bytes received at 274590 bytes/sec], 365374 bytes transferred using HTTP compression in 8 files, ratio 34%, 3.7 requests per connection
+(2 errors, 6 warnings, 0 messages)
